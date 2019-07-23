@@ -1,0 +1,22 @@
+{
+    "name": "trungpv1601/module-m2-sample",
+    "description": "Magento 2 Sample Module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "trungpv1601@gmail.com",
+            "name": "trungpv"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Viking\\Sample\\": ""
+        }
+    }
+}
